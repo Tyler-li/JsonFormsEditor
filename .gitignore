@@ -1,9 +1,0 @@
-!.gitkeep
-node_modules/
-build
-.DS_Store
-.idea
-app/assets/libs
-.tscache
-temp
-dist
