@@ -27,67 +27,85 @@
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
+/* LESS variables */
+/* HTML element styles */
 body {
   font-family: Helvetica, Arial;
   font-size: 12px;
 }
-.treeContainer {
-  padding-top: 2em;
+.side-borders {
+  border-right: 1px solid #bed2db;
+  border-left: 1px solid #bed2db;
 }
-.demo-card-image.mdl-card {
-  width: 150px;
-  height: 150px;
-  background: #2196F3;
+.right-margin {
+  margin-right: 10px;
 }
-.demo-card-image > .mdl-card__actions {
-  height: 52px;
-  padding: 16px;
-  background: rgba(0, 0, 0, 0.2);
+.bottom-border {
+  border-bottom: 1px solid #bed2db;
 }
-.demo-card-image__filename {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
+.textarea {
+  padding: 10px;
+  width: 500px;
+  height: 180px;
 }
-a {
-  color: #888;
+.hide {
+  display: none;
 }
-/* From here copied from angular-ui-tree examples stylesheet */
-.btn {
-  margin-right: 8px;
-}
-.angular-ui-tree-handle {
-  padding: 10px 10px;
-}
-tr.angular-ui-tree-empty {
-  height: 100px;
-}
-.group-title {
-  background-color: #687074 !important;
-  color: #FFF !important;
-}
-/* --- Tree --- */
-.tree-node {
-  border: 1px solid #dae2ea;
-  background: #f8faff;
-  color: #7c9eb2;
-}
-.nodrop {
-  background-color: #f2dede;
+/* tree styles */
+.tree-view .tree-node {
+  border: 1px solid #bed2db;
+  background: #f0f9ff;
+  padding: 10px;
 }
 .tree-node-content {
-  margin: 10px;
-}
-.tree-handle {
-  padding: 10px;
-  background: #428bca;
-  color: #FFF;
-  margin-right: 10px;
+  margin-bottom: 10px;
 }
 .angular-ui-tree-placeholder {
   background: #f0f9ff;
   border: 2px dashed #bed2db;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+.angular-ui-tree-handle {
+  padding: 0;
+  font-weight: normal;
+}
+/*  angular material design style overrides */
+.md-subheader {
+  background: #f0f9ff;
+  margin-right: 0;
+  text-align: center;
+  font-weight: bold;
+}
+md-tabs-wrapper {
+  background: #f0f9ff !important;
+}
+md-tab-item {
+  border-bottom: 1px solid #bed2db;
+}
+md-tab-item:first-child {
+  border-right: 1px solid #bed2db;
+}
+md-tab-item.md-active {
+  background: #fff;
+  border-bottom: none;
+  border-top: 1px solid #bed2db;
+}
+md-tab-item span {
+  color: #000;
+}
+md-tab-item.md-active span {
+  font-weight: bold;
+}
+md-list-item:hover {
+  background: #f0f9ff;
+}
+/* bootstrap framework style overrides */
+.row {
+  padding: 0 !important;
+  margin: 0;
+}
+.alert {
+  margin: 0;
+  padding: 10px;
+  margin-top: 10px;
 }
