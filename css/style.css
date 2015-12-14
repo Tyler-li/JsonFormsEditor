@@ -37,8 +37,8 @@ body {
   border-right: 1px solid #bed2db;
   border-left: 1px solid #bed2db;
 }
-.right-margin {
-  margin-right: 10px;
+.left-margin {
+  margin-left: 10px;
 }
 .bottom-border {
   border-bottom: 1px solid #bed2db;
