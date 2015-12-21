@@ -65,9 +65,9 @@ body {
   border: 2px dashed #bed2db;
   box-sizing: border-box;
 }
-.angular-ui-tree-handle {
-  padding: 0;
-  font-weight: normal;
+.angular-ui-tree-drag {
+  border: 2px dashed #bed2db;
+  background: #f0f9ff;
 }
 /*  angular material design style overrides */
 .md-subheader {
