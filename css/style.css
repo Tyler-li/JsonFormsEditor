@@ -28,6 +28,16 @@
   font-feature-settings: 'liga';
 }
 /* LESS variables */
+/* Header / Body styles */
+.jsonFormsEditor-Header {
+  height: 66px;
+}
+.jsonFormsEditor-Body {
+  height: calc(34%);
+}
+.logo-img {
+  height: 32px;
+}
 /* HTML element styles */
 body {
   font-family: Helvetica, Arial;
