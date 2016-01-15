@@ -107,35 +107,6 @@ tr.angular-ui-tree-empty {
   margin-right: 10px;
 }
 /*  angular material design style overrides */
-.md-subheader {
-  background: #f0f9ff;
-  margin-right: 0;
-  text-align: center;
-  font-weight: bold;
-}
-md-tabs-wrapper {
-  background: #f0f9ff !important;
-}
-md-tab-item {
-  border-bottom: 1px solid #bed2db;
-}
-md-tab-item:first-child {
-  border-right: 1px solid #bed2db;
-}
-md-tab-item.md-active {
-  background: #fff;
-  border-bottom: none;
-  border-top: 1px solid #bed2db;
-}
-md-tab-item span {
-  color: #000;
-}
-md-tab-item.md-active span {
-  font-weight: bold;
-}
-md-list-item:hover {
-  background: #f0f9ff;
-}
 /* bootstrap framework style overrides */
 .row {
   padding: 0 !important;
