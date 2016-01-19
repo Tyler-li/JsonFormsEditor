@@ -39,6 +39,64 @@
 .logo-img {
   height: 32px;
 }
+.modalDialog {
+  width: 50%;
+}
+.wizardStepContainer {
+  text-align: justify;
+}
+.wizardStepContainer:after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+}
+.wizardStep {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: grey;
+}
+.wizardStep:hover {
+  background-color: #2196f3;
+  color: white;
+}
+.wizardStepActive {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: white;
+  pointer-events: none;
+  cursor: default;
+}
+.wizardStepNotNavigatable {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: grey;
+  pointer-events: none;
+  cursor: default;
+}
+.loginError {
+  padding-bottom: 20px;
+  /* Copy styles from ng-messages */
+  font-size: 12px;
+  line-height: 14px;
+  transition: all 0.3s cubic-bezier(0.55, 0, 0.55, 0.2);
+  /* Set our own color */
+  color: red;
+}
+.selectedListItem {
+  background-color: rgba(1, 1, 1, 0.1);
+}
 /* HTML element styles */
 body {
   font-family: Helvetica, Arial;
@@ -107,6 +165,18 @@ tr.angular-ui-tree-empty {
   margin-right: 10px;
 }
 /*  angular material design style overrides */
+md-grid-list {
+  margin: 8px;
+}
+.gray {
+  background: #f5f5f5;
+}
+md-grid-tile {
+  cursor: pointer;
+}
+md-grid-tile md-icon {
+  padding-bottom: 60px;
+}
 /* bootstrap framework style overrides */
 .row {
   padding: 0 !important;
