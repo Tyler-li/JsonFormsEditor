@@ -1,4 +1,4 @@
-/*! jsonforms-editor - v0.0.0 - 2016-02-01 Copyright (c) */ 
+/*! jsonforms-editor - v0.0.0 - 2016-02-05 Copyright (c) */ 
 'use strict';
 // Source: app/assets/libs/angular-ui-tree/dist/angular-ui-tree.min.css
 .angular-ui-tree-empty{border:1px dashed #bbb;min-height:100px;background-color:#e5e5e5;background-image:-webkit-linear-gradient(45deg,#fff 25%,transparent 25%,transparent 75%,#fff 75%,#fff),-webkit-linear-gradient(45deg,#fff 25%,transparent 25%,transparent 75%,#fff 75%,#fff);background-image:-moz-linear-gradient(45deg,#fff 25%,transparent 25%,transparent 75%,#fff 75%,#fff),-moz-linear-gradient(45deg,#fff 25%,transparent 25%,transparent 75%,#fff 75%,#fff);background-image:linear-gradient(45deg,#fff 25%,transparent 25%,transparent 75%,#fff 75%,#fff),linear-gradient(45deg,#fff 25%,transparent 25%,transparent 75%,#fff 75%,#fff);background-size:60px 60px;background-position:0 0,30px 30px}.angular-ui-tree-nodes{position:relative;margin:0;padding:0;list-style:none}.angular-ui-tree-nodes .angular-ui-tree-nodes{padding-left:20px}.angular-ui-tree-node,.angular-ui-tree-placeholder{position:relative;margin:0;padding:0;min-height:20px;line-height:20px}.angular-ui-tree-hidden{display:none}.angular-ui-tree-placeholder{margin:5px 0;padding:0;min-height:30px}.angular-ui-tree-handle{cursor:move;text-decoration:none;font-weight:700;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;min-height:20px;line-height:20px}.angular-ui-tree-drag{position:absolute;pointer-events:none;z-index:999;opacity:.8}
@@ -17111,7 +17111,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
  * Angular Material Design
  * https://github.com/angular/material
  * @license MIT
- * v1.0.4
+ * v1.0.5
  */
 html, body {
   height: 100%;
@@ -28321,12 +28321,12 @@ md-input-container {
   md-input-container input[type="month"],
   md-input-container input[type="time"],
   md-input-container input[type="week"] {
-    min-height: 28px; }
+    min-height: 26px; }
   md-input-container textarea {
     resize: none;
     overflow: hidden; }
   md-input-container textarea.md-input {
-    min-height: 28px;
+    min-height: 26px;
     -ms-flex-preferred-size: auto; }
   md-input-container label:not(.md-container-ignore) {
     position: absolute;
@@ -28462,9 +28462,9 @@ md-input-container {
     padding-left: 2px;
     padding-right: 2px;
     border-width: 0 0 1px 0;
-    line-height: 28px;
-    height: 32px;
-    -ms-flex-preferred-size: 28px;
+    line-height: 26px;
+    height: 30px;
+    -ms-flex-preferred-size: 26px;
     border-radius: 0;
     border-style: solid;
     width: 100%;
@@ -28652,8 +28652,8 @@ md-input-container {
     opacity: 0;
     margin-top: -100px; }
   md-input-container.md-input-focused label:not(.md-no-float), md-input-container.md-input-has-placeholder label:not(.md-no-float), md-input-container.md-input-has-value label:not(.md-no-float) {
-    -webkit-transform: translate3d(0, 8px, 0) scale(0.75);
-            transform: translate3d(0, 8px, 0) scale(0.75); }
+    -webkit-transform: translate3d(0, 6px, 0) scale(0.75);
+            transform: translate3d(0, 6px, 0) scale(0.75); }
   md-input-container.md-input-has-value label {
     transition: none; }
   md-input-container.md-input-focused .md-input,
@@ -28700,8 +28700,8 @@ md-input-container {
         direction: ltr;
         unicode-bidi: bidi-override; }
     md-input-container.md-icon-float.md-input-focused label, md-input-container.md-icon-float.md-input-has-value label {
-      -webkit-transform: translate3d(0, 8px, 0) scale(0.75);
-              transform: translate3d(0, 8px, 0) scale(0.75);
+      -webkit-transform: translate3d(0, 6px, 0) scale(0.75);
+              transform: translate3d(0, 6px, 0) scale(0.75);
       transition: -webkit-transform cubic-bezier(0.25, 0.8, 0.25, 1) 0.5s;
       transition: transform cubic-bezier(0.25, 0.8, 0.25, 1) 0.5s; }
   md-input-container.md-icon-left {
@@ -30025,7 +30025,7 @@ md-select {
   position: relative;
   box-sizing: content-box;
   min-width: 64px;
-  min-height: 28px;
+  min-height: 26px;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1; }
@@ -30039,8 +30039,7 @@ md-select {
     white-space: nowrap;
     overflow: hidden;
     -webkit-transform: translate3d(0, 2px, 0);
-            transform: translate3d(0, 2px, 0);
-    height: 26px; }
+            transform: translate3d(0, 2px, 0); }
   .md-select-value .md-select-icon {
     display: block;
     -webkit-align-items: flex-end;
@@ -30055,7 +30054,7 @@ md-select {
     display: block;
     content: '\25BC';
     position: relative;
-    top: -1px;
+    top: 2px;
     speak: none;
     -webkit-transform: scaleY(0.6) scaleX(1);
             transform: scaleY(0.6) scaleX(1); }
