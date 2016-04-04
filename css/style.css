@@ -136,7 +136,6 @@ body {
 .angular-ui-tree-handle:hover {
   color: #438eb9;
   background: #f4f6f7;
-  border-color: #dce2e8;
 }
 .angular-ui-tree-placeholder {
   background: #f0f9ff;
@@ -212,4 +211,7 @@ md-grid-tile md-icon {
 }
 .layouts-view {
   background-color: #f0f9ff;
+}
+.toolbox-element-placed {
+  border-color: #283593;
 }
