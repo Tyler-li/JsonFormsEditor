@@ -1,3 +1,111 @@
+.detail-alert-image {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  margin-right: 5px;
+}
+.detail-error-box {
+  padding: 10px;
+  color: red;
+}
+.detail-error-entry {
+  margin-bottom: 10px;
+}
+
+.toolbox-bottom-control {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 320px;
+  padding: 5px;
+  background-color: #f0f9ff;
+}
+.toolbox-input-datatype-box {
+  margin-left: 2px;
+  margin-right: 2px;
+  height: 50px;
+  background-color: white;
+  color: #283593;
+  line-height: 50px;
+  text-align: center;
+  border: 2px solid #283593;
+  border-radius: 3px;
+}
+.toolbox-input-datatype-box:hover {
+  background-color: #C9D7FF;
+}
+.toolbox-input-datatype-box-active {
+  background-color: #283593;
+  color: white;
+}
+.toolbox-input-datatype-box-active:hover {
+  background-color: #283593;
+  color: white;
+}
+.toolbox-button-create {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+.toolbox-advanced-button {
+  display: block;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  min-height: 20px;
+  font-size: 10px;
+}
+
+.tree-node {
+  border: 1px solid #dae2ea;
+  background: #f8faff;
+  color: #7c9eb2;
+}
+.tree-node:hover {
+  color: #438eb9;
+  background: #f4f6f7;
+}
+.tree-invalid-node {
+  border: 1px solid red;
+}
+.tree-invalid-node:hover {
+  border: 1px solid red;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(../fonts/test.woff2) format('woff2');
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
@@ -128,14 +236,7 @@ body {
 }
 /* tree styles */
 .angular-ui-tree-handle {
-  background: #f8faff;
-  border: 1px solid #dae2ea;
-  color: #7c9eb2;
   padding: 10px 10px;
-}
-.angular-ui-tree-handle:hover {
-  color: #438eb9;
-  background: #f4f6f7;
 }
 .angular-ui-tree-placeholder {
   background: #f0f9ff;
@@ -146,11 +247,6 @@ body {
 }
 tr.angular-ui-tree-empty {
   height: 100px;
-}
-.tree-node {
-  border: 1px solid #dae2ea;
-  background: #f8faff;
-  color: #7c9eb2;
 }
 .nodrop {
   background-color: #f2dede;
@@ -178,6 +274,9 @@ md-grid-tile {
 md-grid-tile md-icon {
   padding-bottom: 60px;
 }
+.material-icons.red {
+  color: red;
+}
 /* bootstrap framework style overrides */
 .row {
   padding: 0 !important;
@@ -194,14 +293,6 @@ md-grid-tile md-icon {
 .toolbar-container {
   width: 320px;
   min-width: 320px;
-}
-.toolbox-bottom-control {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 320px;
-  padding: 5px;
-  background-color: #f0f9ff;
 }
 .layouts-element {
   margin-left: 5px;
